@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		080B57CF2971FFFF00C8E5A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B57CE2971FFFF00C8E5A1 /* HomeView.swift */; };
+		080B57D129720E7A00C8E5A1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B57D029720E7A00C8E5A1 /* MainView.swift */; };
+		080B57D32972105700C8E5A1 /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B57D22972105700C8E5A1 /* MoonView.swift */; };
 		08127B022971EDA5003F2CD1 /* StarViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08127B012971EDA5003F2CD1 /* StarViewApp.swift */; };
 		08127B062971EDA5003F2CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08127B052971EDA5003F2CD1 /* Assets.xcassets */; };
 		08127B092971EDA5003F2CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08127B082971EDA5003F2CD1 /* Preview Assets.xcassets */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		080B57CE2971FFFF00C8E5A1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		080B57D029720E7A00C8E5A1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		080B57D22972105700C8E5A1 /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
 		08127AFE2971EDA5003F2CD1 /* StarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08127B012971EDA5003F2CD1 /* StarViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewApp.swift; sourceTree = "<group>"; };
 		08127B052971EDA5003F2CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				08127B012971EDA5003F2CD1 /* StarViewApp.swift */,
+				080B57D029720E7A00C8E5A1 /* MainView.swift */,
 				080B57CE2971FFFF00C8E5A1 /* HomeView.swift */,
+				080B57D22972105700C8E5A1 /* MoonView.swift */,
 				08127B052971EDA5003F2CD1 /* Assets.xcassets */,
 				08127B072971EDA5003F2CD1 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				080B57CF2971FFFF00C8E5A1 /* HomeView.swift in Sources */,
+				080B57D32972105700C8E5A1 /* MoonView.swift in Sources */,
+				080B57D129720E7A00C8E5A1 /* MainView.swift in Sources */,
 				08127B022971EDA5003F2CD1 /* StarViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

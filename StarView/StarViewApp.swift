@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct StarViewApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
-            HomeView(isSkyClear: true)
+            
+            MainView()
         }
     }
 }
