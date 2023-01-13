@@ -11,7 +11,7 @@ import SwiftUI
 struct StarViewApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            HomeView(isSkyClear: true)
         }
     }
 }

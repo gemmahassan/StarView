@@ -9,14 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     
+    @State var isSkyClear: Bool
+    
     var body: some View {
         
         VStack {
             
             Text("Can I see the stars tonight?")
             
-            Text("YES")
-            Text("NO")
+            Text(isSkyClear ? "YES" : "NO")
         }
         .padding()
     }
@@ -26,6 +27,6 @@ struct HomeView_Previews: PreviewProvider {
     
     static var previews: some View {
         
-        HomeView()
+        HomeView(isSkyClear: true)
     }
 }
