@@ -16,8 +16,10 @@ struct HomeView: View {
         VStack {
             
             Text("Can I see the stars tonight?")
+                .font(.title)
             
             Text(isSkyClear ? "YES" : "NO")
+                .font(.largeTitle)
         }
         .padding()
     }
