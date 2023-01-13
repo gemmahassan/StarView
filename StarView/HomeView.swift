@@ -13,15 +13,20 @@ struct HomeView: View {
     
     var body: some View {
         
-        VStack {
+        NavigationView {
             
-            Text("Can I see the stars tonight?")
-                .font(.title)
-            
-            Text(isSkyClear ? "YES" : "NO")
-                .font(.largeTitle)
+            VStack {
+                
+                Text("Can I see the stars tonight?")
+                    .font(.title)
+                
+                Text(isSkyClear ? "YES" : "NO")
+                    .font(.largeTitle)
+            }
+            .navigationTitle("StarView")
+            .navigationBarTitleDisplayMode(.inline)
+            .padding()
         }
-        .padding()
     }
 }
 
