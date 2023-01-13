@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080B57CF2971FFFF00C8E5A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B57CE2971FFFF00C8E5A1 /* HomeView.swift */; };
 		08127B022971EDA5003F2CD1 /* StarViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08127B012971EDA5003F2CD1 /* StarViewApp.swift */; };
-		08127B042971EDA5003F2CD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08127B032971EDA5003F2CD1 /* ContentView.swift */; };
 		08127B062971EDA5003F2CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08127B052971EDA5003F2CD1 /* Assets.xcassets */; };
 		08127B092971EDA5003F2CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08127B082971EDA5003F2CD1 /* Preview Assets.xcassets */; };
 		08127B132971EDA6003F2CD1 /* StarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08127B122971EDA6003F2CD1 /* StarViewTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080B57CE2971FFFF00C8E5A1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		08127AFE2971EDA5003F2CD1 /* StarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08127B012971EDA5003F2CD1 /* StarViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewApp.swift; sourceTree = "<group>"; };
-		08127B032971EDA5003F2CD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08127B052971EDA5003F2CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08127B082971EDA5003F2CD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08127B0E2971EDA6003F2CD1 /* StarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				08127B012971EDA5003F2CD1 /* StarViewApp.swift */,
-				08127B032971EDA5003F2CD1 /* ContentView.swift */,
+				080B57CE2971FFFF00C8E5A1 /* HomeView.swift */,
 				08127B052971EDA5003F2CD1 /* Assets.xcassets */,
 				08127B072971EDA5003F2CD1 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08127B042971EDA5003F2CD1 /* ContentView.swift in Sources */,
+				080B57CF2971FFFF00C8E5A1 /* HomeView.swift in Sources */,
 				08127B022971EDA5003F2CD1 /* StarViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
